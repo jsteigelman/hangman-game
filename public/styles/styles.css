@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 72.5%;
+}
+
+body {
+    background: #181820;
+    color: #fafafa;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+span {
+    border-bottom: 1px solid #30303D;
+    display: inline-block;
+    font-size: 2rem;
+    height: 2.4rem;
+    line-height: 2.4rem;
+    margin: 0 .19rem;
+    text-align: center;
+    text-transform: uppercase;
+    width: 3.4rem;
+}
+
+p {
+    font-weight: 300;
+    margin-bottom: .8rem;
+}
+
+.puzzle {
+    display: flex;
+    margin-bottom: 4.8rem;
+
+}
+
+.button {
+    background-image: linear-gradient(to bottom right, #FE9E7B, #F569AD, #C143D8);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding: .8rem 2.4rem;
+    transition: background .3s ease, color .3s ease;
+}
+
+.button:hover {
+    background-color: #181820;
+    background-image: linear-gradient(to bottom right, rgba(254, 158, 123, 0.85), rgb(193, 67, 216, 0.85));
+}
